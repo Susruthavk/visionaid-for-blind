@@ -1,7 +1,0 @@
-
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320">
-  <style>.t{fill:#e5e7eb;font:16px sans-serif}.box{fill:#0b1220;stroke:#1f2937;stroke-width:2}.h{fill:#a78bfa;font:bold 20px sans-serif}</style>
-  <text class="h" x="20" y="30">Edge vs Cloud</text>
-  <rect class="box" x="20" y="60" width="380" height="220" rx="16"/><text class="t" x="40" y="95">Edge</text><text class="t" x="40" y="125">• Privacy</text><text class="t" x="40" y="150">• Low latency</text><text class="t" x="40" y="175">• Limited compute</text>
-  <rect class="box" x="460" y="60" width="420" height="220" rx="16"/><text class="t" x="480" y="95">Cloud</text><text class="t" x="480" y="125">• More compute</text><text class="t" x="480" y="150">• Network latency</text><text class="t" x="480" y="175">• Privacy concerns</text>
-</svg>
