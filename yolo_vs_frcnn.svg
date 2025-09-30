@@ -1,0 +1,9 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320">
+  <style>.box{fill:#0b1220;stroke:#1f2937;stroke-width:2}.t{fill:#e5e7eb;font:16px sans-serif}.h{fill:#a78bfa;font:bold 20px sans-serif}</style>
+  <text class="h" x="20" y="30">YOLO vs Faster R-CNN</text>
+  <rect class="box" x="20" y="60" width="380" height="220" rx="16"/>
+  <text class="t" x="40" y="95">YOLO (One-stage)</text><text class="t" x="40" y="125">• Single-pass detection</text><text class="t" x="40" y="150">• Real-time speed</text><text class="t" x="40" y="175">• Good on edge/mobile</text>
+  <rect class="box" x="460" y="60" width="420" height="220" rx="16"/>
+  <text class="t" x="480" y="95">Faster R-CNN (Two-stage)</text><text class="t" x="480" y="125">• Region proposals</text><text class="t" x="480" y="150">• Higher accuracy</text><text class="t" x="480" y="175">• Slower; server/offline</text>
+</svg>

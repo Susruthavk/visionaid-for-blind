@@ -1,0 +1,13 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 260">
+  <style>.t{fill:#e5e7eb;font:16px sans-serif}.p{fill:none;stroke:#38bdf8;stroke-width:3}</style>
+  <text class="t" x="20" y="30">Occlusion Scenarios</text>
+  <rect x="20" y="50" width="360" height="180" fill="#0b1220" stroke="#1f2937"/>
+  <circle cx="120" cy="140" r="40" fill="#374151"/><circle cx="160" cy="140" r="40" fill="#4b5563"/>
+  <rect x="80" y="100" width="80" height="80" class="p"/><rect x="140" y="100" width="80" height="80" class="p"/>
+  <text class="t" x="20" y="245">Left: overlapping people → fewer visible pixels per person</text>
+  <rect x="420" y="50" width="360" height="180" fill="#0b1220" stroke="#1f2937"/>
+  <circle cx="520" cy="140" r="40" fill="#374151"/><rect x="560" y="100" width="40" height="80" fill="#111827" stroke="#1f2937"/>
+  <rect x="500" y="100" width="80" height="80" class="p"/>
+  <text class="t" x="420" y="245">Right: partial occlusion by object (pillar)</text>
+</svg>
