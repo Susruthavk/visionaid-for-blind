@@ -7,8 +7,6 @@ VisionAid is an interactive, web-based research tutorial created as part of a gr
 It explores computer vision–based people detection systems designed to support blind and low-vision users in public and social settings.
 
 The tutorial is delivered as a website with a structured learning path, visuals, and audio narration for accessibility.
-It is hosted via GitHub Pages:
-👉 Live Tutorial
 
 
 **Motivation**
