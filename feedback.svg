@@ -1,8 +1,0 @@
-
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 340">
-  <style>.box{fill:#0b1220;stroke:#1f2937;stroke-width:2}.t{fill:#e5e7eb;font:16px sans-serif}.h{fill:#a78bfa;font:bold 20px sans-serif}</style>
-  <text class="h" x="20" y="30">Feedback Modalities</text>
-  <rect class="box" x="20" y="60" width="240" height="240" rx="16"/><text class="t" x="40" y="95">Speech</text><text class="t" x="40" y="120">• "3 people left"</text>
-  <rect class="box" x="290" y="60" width="240" height="240" rx="16"/><text class="t" x="310" y="95">Haptics</text><text class="t" x="310" y="120">• Intensity=crowded</text>
-  <rect class="box" x="560" y="60" width="240" height="240" rx="16"/><text class="t" x="580" y="95">Earcons</text><text class="t" x="580" y="120">• Directional tones</text>
-</svg>
