@@ -1,8 +1,0 @@
-
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360">
-  <style>.box{fill:#0b1220;stroke:#1f2937;stroke-width:2}.t{fill:#e5e7eb;font:16px sans-serif}.h{fill:#a78bfa;font:bold 20px sans-serif}</style>
-  <text class="h" x="20" y="30">Key Challenges</text>
-  <rect class="box" x="20" y="60" width="260" height="260" rx="16"/><text class="t" x="40" y="95">Occlusion</text><text class="t" x="40" y="125">• People overlap</text>
-  <rect class="box" x="310" y="60" width="260" height="260" rx="16"/><text class="t" x="330" y="95">Lighting</text><text class="t" x="330" y="125">• Low light / glare</text>
-  <rect class="box" x="600" y="60" width="260" height="260" rx="16"/><text class="t" x="620" y="95">Latency</text><text class="t" x="620" y="125">• Real-time target</text>
-</svg>
