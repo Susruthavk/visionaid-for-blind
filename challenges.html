@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Challenges & Future Scope — VisionAid</title>
+  <meta name="description" content="Accessible people detection tutorial for blind/low-vision users using computer vision." />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  
+    <nav aria-label="Primary" class="nav">
+      <a class="brand" href="index.html" aria-label="Home">♿️ VisionAid</a>
+      <ul class="nav-links" role="list">
+        <li><a href="index.html" aria-current="false">Intro</a></li>
+        <li><a href="methods.html" aria-current="false">People Detection Methods</a></li>
+        <li><a href="feedback.html" aria-current="false">Accessible Feedback</a></li>
+        <li><a href="tools.html" aria-current="false">Current Tools</a></li>
+        <li><a href="challenges.html" aria-current="page">Challenges & Future</a></li>
+        <li><a href="quiz.html" aria-current="false">Quiz</a></li>
+        <li><a href="bibliography.html" aria-current="false">Annotated Bibliography</a></li>
+      </ul>
+    </nav>
+    
+  <main id="main" tabindex="-1">
+    <header class="page-header">
+      <h1>Challenges & Future Scope</h1>
+      <p class="byline"><em>Author: Susrutha Vishal Koyyalamudi</em></p>
+      <div class="voice-block">
+        <audio controls preload="auto" aria-label="Voice narration for this page">
+          <source src="assets/audio/challenges.m4a" type="audio/m4a" />
+          Your browser does not support the audio element.
+        </audio>
+        <details>
+          <summary>Text transcript</summary>
+          <div class="transcript" id="transcript-challenges">
+            <p>Replace this transcript text with the narration for this page.</p>
+          </div>
+        </details>
+      </div>
+    </header>
+    
+<section class="grid grid-2">
+  <article class="card">
+    <h2>Challenges</h2>
+    <figure class="figure">
+      <img src="assets/images/challenges.svg" alt="Occlusion, lighting, latency boxes." />
+      <figcaption>Figure 10. Core challenges.</figcaption>
+    </figure>
+    <ul class="center" style="list-style-position:inside;">
+      <li><strong>Occlusion</strong>: crowded scenes block visibility.</li>
+      <li><strong>Lighting</strong>: low light, backlight, glare.</li>
+      <li><strong>Latency</strong>: aim for under ~300 ms.</li>
+    </ul>
+  </article>
+  <article class="card">
+    <h2>Future Scope</h2>
+    <ul class="center" style="list-style-position:inside;">
+      <li>Multi-sensor fusion (IMU, audio direction).</li>
+      <li>Adaptive thresholds via user profiles.</li>
+      <li>On-device personalization with privacy.</li>
+      <li>Directional guidance (left/center/right).</li>
+    </ul>
+  </article>
+</section>
+
+<section class="card center" style="max-width:860px; margin: 0 auto;">
+  <h2>Mini Code: Directional Buckets</h2>
+  <pre class="code"><code>// Given box center x and width W
+function bucket(x, W){
+  if (x &lt; W/3) return 'left';
+  if (x &lt; 2*W/3) return 'center';
+  return 'right';
+}</code></pre>
+</section>
+
+  </main>
+  <footer class="site-footer" role="contentinfo">
+    <p><strong>VisionAid:</strong> Accessible People Detection Tutorial. Built for an academic project.</p>
+    <p>© 2025 — CC BY 4.0 where applicable. Replace images/audio with properly licensed media and cite sources.</p>
+  </footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

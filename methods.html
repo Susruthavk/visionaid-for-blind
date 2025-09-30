@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>People Detection Methods — VisionAid</title>
+  <meta name="description" content="Accessible people detection tutorial for blind/low-vision users using computer vision." />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  
+    <nav aria-label="Primary" class="nav">
+      <a class="brand" href="index.html" aria-label="Home">♿️ VisionAid</a>
+      <ul class="nav-links" role="list">
+        <li><a href="index.html" aria-current="false">Intro</a></li>
+        <li><a href="methods.html" aria-current="page">People Detection Methods</a></li>
+        <li><a href="feedback.html" aria-current="false">Accessible Feedback</a></li>
+        <li><a href="tools.html" aria-current="false">Current Tools</a></li>
+        <li><a href="challenges.html" aria-current="false">Challenges & Future</a></li>
+        <li><a href="quiz.html" aria-current="false">Quiz</a></li>
+        <li><a href="bibliography.html" aria-current="false">Annotated Bibliography</a></li>
+      </ul>
+    </nav>
+    
+  <main id="main" tabindex="-1">
+    <header class="page-header">
+      <h1>People Detection Methods</h1>
+      <p class="byline"><em>Author: Susrutha Vishal Koyyalamudi</em></p>
+      <div class="voice-block">
+        <audio controls preload="auto" aria-label="Voice narration for this page">
+          <source src="assets/audio/methods.m4a" type="audio/mp4" />
+          Your browser does not support the audio element.
+        </audio>
+        <details>
+          <summary>Text transcript</summary>
+          <div class="transcript" id="transcript-methods">
+            <p>Replace this transcript text with the narration for this page.</p>
+          </div>
+        </details>
+      </div>
+    </header>
+    
+<section class="grid grid-2">
+  <article class="card">
+    <h2>One-Stage vs Two-Stage Detectors</h2>
+    <figure class="figure">
+      <img src="assets/images/yolo_vs_frcnn.svg" alt="Comparison between YOLO and Faster R-CNN characteristics." />
+      <figcaption>Figure 2. YOLO vs Faster R-CNN tradeoffs.</figcaption>
+    </figure>
+    <p>YOLO performs detection in a single pass (fast, edge-friendly). Faster R-CNN proposes regions then classifies/refines them (often more accurate, but slower).</p>
+  </article>
+  <article class="card">
+    <h2>Edge vs Cloud</h2>
+    <figure class="figure">
+      <img src="assets/images/edge_vs_cloud.svg" alt="Comparison of edge vs cloud processing considerations." />
+      <figcaption>Figure 3. Edge vs Cloud considerations.</figcaption>
+    </figure>
+    <p>Edge prioritizes privacy and low latency but has limited compute; cloud has more compute but introduces network latency and privacy concerns.</p>
+  </article>
+</section>
+
+<section class="card center" style="max-width:860px; margin: 0 auto;">
+  <h2>Sample Pseudocode</h2>
+  <pre class="code"><code>// boxes = detect(frame)
+// people = boxes.filter(b =&gt; b.class === 'person' &amp;&amp; b.score &gt;= 0.5)
+// count = people.length
+// speak(`People detected: ${count}`) // or haptic cue</code></pre>
+</section>
+
+  </main>
+  <footer class="site-footer" role="contentinfo">
+    <p><strong>VisionAid:</strong> Accessible People Detection Tutorial. Built for an academic project.</p>
+    <p>© 2025 — CC BY 4.0 where applicable. Replace images/audio with properly licensed media and cite sources.</p>
+  </footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
